@@ -1,0 +1,22 @@
+﻿<Window x:Class="ImageNexus.BenScharbach.YouTube.CreateBattery.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Create Battery" Height="350" Width="525" Name="ToyWithBattery">
+    <Grid>
+        <Button Content="Motion" Height="23" HorizontalAlignment="Left" Margin="404,24,0,0" Name="BtnStartMotion" VerticalAlignment="Top" Width="75" Click="BtnStartMotion_Click" />
+        <Button Content="Jump" Height="23" HorizontalAlignment="Left" Margin="404,53,0,0" Name="BtnJump" VerticalAlignment="Top" Width="75" Click="BtnJump_Click" />
+        <Button Content="Blower" Height="23" HorizontalAlignment="Left" Margin="404,82,0,0" Name="BtnBlower" VerticalAlignment="Top" Width="75" Click="BtnBlower_Click" />
+        <Rectangle Height="289" HorizontalAlignment="Left" Margin="240,9,0,0" Name="Container" Stroke="Firebrick" VerticalAlignment="Top" Width="149" />
+        <Rectangle Height="41" HorizontalAlignment="Left" Margin="119,90,0,0" Name="rectangle1" Stroke="Black" VerticalAlignment="Top" Width="44" Fill="CornflowerBlue" />
+        <Rectangle Height="16" HorizontalAlignment="Left" Margin="162,103,0,0" Name="rectangle2" Stroke="Black" VerticalAlignment="Top" Width="6" Fill="Silver" />
+        <Rectangle Height="41" HorizontalAlignment="Left" Margin="14,90,0,0" Name="rectangle3" Stroke="Black" VerticalAlignment="Top" Width="105" Fill="SteelBlue" />
+        <TextBlock Height="29" HorizontalAlignment="Left" Margin="29,95,0,0" Name="textBlock1" Text="Battery" VerticalAlignment="Top" Width="84" Foreground="Azure" FontSize="20" />
+        <ProgressBar Height="13" HorizontalAlignment="Left" Margin="14,12,0,0" Name="BatteryGauge" VerticalAlignment="Top" Width="152" Value="80" />
+        <TextBlock Height="19" HorizontalAlignment="Left" Margin="14,28,0,0" Name="textBlock2" Text="BatteryGuage" VerticalAlignment="Top" Width="139" Foreground="DarkGray" />
+        <Button Content="Connect" Height="23" HorizontalAlignment="Left" Margin="14,137,0,0" Name="BtnConnectBattery" VerticalAlignment="Top" Width="75" Click="BtnConnectBattery_Click" />
+        <Button Content="Disconnect" Height="23" HorizontalAlignment="Left" Margin="14,166,0,0" Name="BtnDisconnectBattery" VerticalAlignment="Top" Width="75" Click="BtnDisconnectBattery_Click" />
+        <Button Content="Recharge" Height="23" HorizontalAlignment="Left" Margin="14,195,0,0" Name="BtnRecharge" VerticalAlignment="Top" Width="75" Click="BtnRecharge_Click" />
+        <Rectangle Height="22" HorizontalAlignment="Left" Margin="388,276,0,0" Name="BallsOnOffLight" Stroke="Black" VerticalAlignment="Top" Width="21" Fill="Gainsboro" />
+        <Rectangle Height="4" HorizontalAlignment="Left" Margin="91,109,0,0" Name="ConnectingRod" Stroke="Black" VerticalAlignment="Top" Width="96" Panel.ZIndex="-1" Fill="CadetBlue" />
+    </Grid>
+</Window>
